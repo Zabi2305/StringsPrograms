@@ -9,7 +9,7 @@ public class PrintUniqueWordInSentence {
 		String[] str = s.split(" ");
 		//step1:- store each word of sentence inn set
 		HashSet<String> set = new HashSet<String>();
-		
+
 		for(int i=0; i<str.length; i++)
 		{
 			set.add(str[i]);
@@ -24,14 +24,11 @@ public class PrintUniqueWordInSentence {
 				{
 					count ++;
 				}
-				
 			}
 			if(count==1){
-			//System.out.println(word+" "+count);
+				//System.out.println(word+" "+count);
 				System.out.print(word+" ");
+			}
 		}
 	}
-
-	}
-
 }

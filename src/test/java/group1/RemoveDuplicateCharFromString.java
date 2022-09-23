@@ -19,11 +19,5 @@ public class RemoveDuplicateCharFromString {
 					
 					System.out.print(ch);
 				}
-				
-				
 			}
-		
-
-	
-
 }

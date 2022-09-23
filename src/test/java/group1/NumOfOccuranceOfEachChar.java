@@ -29,10 +29,10 @@ public class NumOfOccuranceOfEachChar {
 				if (ch==s.charAt(i))
 				{
 					count ++;  
-				}
-				
+				}	
 			}
 			System.out.println(ch+" "+count);
 		}
+		System.out.println( "Total Characters in the Element"+" "+ s.length());
 	}
 }

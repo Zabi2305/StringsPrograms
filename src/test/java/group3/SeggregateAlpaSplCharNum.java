@@ -19,11 +19,9 @@ public class SeggregateAlpaSplCharNum {
     	  {
     		  sp=sp+s.charAt(i);
     	  }
-	
       }
       System.out.println(ch);
       System.out.println(num);
       System.out.println(sp);
 	}
-
 }

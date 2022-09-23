@@ -1,13 +1,14 @@
 package group2;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 
 public class NumOfOccOfEachWord {
 
 	public static void main(String[] args) {
     String s ="WELCOME TO INDIA TO MANDYA";
 		String[] str = s.split(" ");
-		//step1:- store each word of sentence inn set
+		//step1:-  To store each word of sentence inn set
 		HashSet<String> set = new HashSet<String>();	
 		
 		for(int i=0; i<str.length; i++)
@@ -25,11 +26,9 @@ public class NumOfOccOfEachWord {
 				{
 					count ++;
 				}
-				
 			}
 			System.out.println(word+" "+count);
 		}
 	}
-
-	}
+}
 
